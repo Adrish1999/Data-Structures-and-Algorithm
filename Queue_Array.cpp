@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include<stdlib.h>
 #define MAX 50
+
 void insert();
 void del();
 void display();
+
 int queue_array[MAX];
 int rear = - 1;
 int front = - 1;
+
 int main()
 {
 int choice;
