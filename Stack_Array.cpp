@@ -1,6 +1,8 @@
 #include<stdio.h>
 #define MAX 50
+
 int stack[MAX],top=-1;
+
 void push(int v)
 {
 	if(top==MAX-1)
