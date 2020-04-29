@@ -9,6 +9,7 @@ typedef struct node
 
 N *start;
 
+
 void insert_at_end(int v)
 {
 	N *nu=(N*)malloc(sizeof(N)),*ptr;
